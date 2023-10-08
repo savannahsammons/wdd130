@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+h1, h3, h4, main p {
+    color: white;
+}
+h1 {
+    font-family: sans-serif, Times;
+    margin: 0 auto;
+    width: 40%;
+    font-size: 3.5em;
+}
+h1:hover {
+    color: black;
+  }
+main p {
+    margin: 0 auto;
+    width: 40%;
+    font-size: 1.1em;
+}
+h4 {
+    font-family: sans-serif, Times;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 1.3em;
+}
+h2 {
+    font-family: sans-serif, Times;
+    width: 40%;
+    text-align: left;
+    margin: 0 auto;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+h3 {
+    margin: 0 auto;
+    width: 35%;
+    font-size: 2.8em;
+}
+footer p {
+    font-family: sans-serif, Times;
+    margin: 0 auto;
+    width: 30%;
+    font-weight: Bold;
+}
+footer p:hover {
+    color: black
+}
+/*
+* {
+    border: 2px solid blue;
+}*/

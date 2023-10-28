@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 130px 130px 130px 130px 130px;
+}
+
+.square {
+    background-color: #aaa;
+    grid-column: 2/3;
+    grid-row: 1/6;
+}
+
+.image {
+    grid-column: 1/2;
+    height: 650px;
+}
+
+.tart {
+    color: black;
+    justify-self: center;
+    justify-self: center;
+    letter-spacing: 25px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 150px;
+    z-index: 3;
+}
+
+.sweet {
+    color: black;
+    justify-self: center;
+    justify-self: center;
+    letter-spacing: 25px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 150px;
+    z-index: 3;
+}
+
+.cherries {
+    color: darkred;
+    justify-self: center;
+    letter-spacing: 25px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 80px;
+    z-index: 4;
+}

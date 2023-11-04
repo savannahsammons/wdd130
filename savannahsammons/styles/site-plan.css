@@ -5,26 +5,27 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #587d71   ;
-  --secondary-color: #e8d2ae ;
-  --accent1-color: #d7b29d;
-  --accent2-color: #cb8589;
-  --accent3-color: #7A6174;
+
+  --primary-color: #b0ccc0   ;
+  --secondary-color: #f58d4e ;
+  --accent1-color: #fedece;
+  --accent2-color: #fd9f96;
+  --accent3-color: #fedad6;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Shantell Sans";
   --paragraph-font: Lexend, "Open Sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #587d71;  /* headlines on a white background */ 
-  --headline-color-on-color: #e8d2ae; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --headline-color-on-white: #b0ccc0;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #444; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #587d71  ;
-  --nav-link-color: #d7b29d;
-  --nav-background-color: #7a6174;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #cb8589;
+  --paragraph-background-color: #fd9f96  ;
+  --nav-link-color: white;
+  --nav-background-color: #f58d4e;
+  --nav-hover-link-color: #f58d4e;
+  --nav-hover-background-color: #fedad6;
 }
 
 

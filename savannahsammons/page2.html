@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah Sammons</title>
+    <link rel="shortcut icon" type="x-icon" href="images/small_piano_logo.png">
+    <link rel="stylesheet" href="styles/piano_styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <!-- <img class="logo" src="images/logo.png" alt="Logo image"> -->
+            <a href="index.html">Home</a>
+            <a class="active" href="page2.html">Music Theory Games</a>
+            <a href="page3.html">Free Sheet Music</a>
+        </nav>
+    </header>
+    <main>
+        <img src="images/girl_headphones.webp" alt="girl listening to music">
+        <img src="images/records.webp" alt="vinyl records">
+        <div class="keyboard">
+            <div class="wrapper">
+                <header>
+                  <h2>Playable PIANO</h2>
+                  <div class="column volume-slider">
+                    <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
+                  </div>
+                  <div class="column keys-checkbox">
+                    <span>Show Keys</span><input type="checkbox" checked>
+                  </div>
+                </header>
+                <ul class="piano-keys">
+                  <li class="key white" data-key="a"><span>a</span></li>
+                  <li class="key black" data-key="w"><span>w</span></li>
+                  <li class="key white" data-key="s"><span>s</span></li>
+                  <li class="key black" data-key="e"><span>e</span></li>
+                  <li class="key white" data-key="d"><span>d</span></li>
+                  <li class="key white" data-key="f"><span>f</span></li>
+                  <li class="key black" data-key="t"><span>t</span></li>
+                  <li class="key white" data-key="g"><span>g</span></li>
+                  <li class="key black" data-key="y"><span>y</span></li>
+                  <li class="key white" data-key="h"><span>h</span></li>
+                  <li class="key black" data-key="u"><span>u</span></li>
+                  <li class="key white" data-key="j"><span>j</span></li>
+                  <li class="key white" data-key="k"><span>k</span></li>
+                  <li class="key black" data-key="o"><span>o</span></li>
+                  <li class="key white" data-key="l"><span>l</span></li>
+                  <li class="key black" data-key="p"><span>p</span></li>
+                  <li class="key white" data-key=";"><span>;</span></li>
+                </ul>
+              </div>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <div>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,28 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Open+Sans&family=Shantell+Sans:wght@300&display=swap');
 
-/* Color palette
-
-DDE8B9- tea green (maybe)
-E8D2AE- wheat
-D7B29D- desert sand
-CB8589- old rose
-796465- wenge (maybe)
-OR
-587D71- hooker's green
-7A6174- chinese violet
-
-https://coolors.co/587d71-e8d2ae-d7b29d-cb8589-7a6174
-
-piano logo
-"images/piano_logo"
-
-https://coolors.co/b0ccc0-fedece-f58d4e-fd9f96-fedad6
-
-
-
-*/
+body {
+    margin: 0;
+    font-family: Lexend, "Open Sans", sans-serif;
+  }
 
 .logo {
-    width: 200px;
-    border: 2px solid black;
-    border-radius: 100px;
+    height: 150px;
+    float: left;
+    padding: 15px;
+    border-radius: 100%;
 }
+  
+.topnav {
+    overflow: hidden;
+    background-color: #f58d4e;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #fedad6;
+    color: #f58d4e;
+  }
+  
+.topnav a.active {
+    background-color: #fd9f96 ;
+    color: white;
+  }

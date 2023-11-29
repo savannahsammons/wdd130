@@ -38,6 +38,24 @@ background-color: #fd9f96;
 color: white;
 }
 
+/* ============== new section ================= */
+
+.pics img {
+  width: 400px;
+  /* margin: 5%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sheet_music_mary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* ============== new section ================= */
+
 footer {
   background-color: #f58d4e;
   padding: 25px;
@@ -72,9 +90,13 @@ body {
   /* background: #E3F2FD; */
 }
 .wrapper {
+  /* display: flex; */
+  width: 720px;
   padding: 35px 40px;
   border-radius: 20px;
   background: #141414;
+  margin-left: auto;
+  margin-right: auto;
 }
 .wrapper header {
   /* display: flex; */

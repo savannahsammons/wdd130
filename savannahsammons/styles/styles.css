@@ -29,6 +29,7 @@
 body {
     margin: 0;
     font-family: Lexend, "Open Sans", sans-serif;
+    height: 800px;
   }
 
 .logo {
@@ -65,7 +66,10 @@ body {
 }
 
 /* ==============new section=============== */
-
+#content {
+  max-width: 1600px;
+  /* background-color: antiquewhite; */
+}
 .me {
   width: 20vw;
   margin-left: 5%;
@@ -79,7 +83,9 @@ body {
   border-width: 8px;
   border-color: #333;
 }
-
+.about_me p {
+  margin-right: 50px;
+}
 .about_me {
   margin-top: 5%;
 }
@@ -92,11 +98,13 @@ body {
 /* ==============new section=============== */
 
 .parallax {
-  margin-top: 10%;
-  background-image: url("images/girl_playing_piano.webp");
+  /* The image used */
+  background-image: url("girl_playing_piano.webp");
 
+  /* Set a specific height */
   min-height: 200px;
 
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

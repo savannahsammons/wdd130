@@ -284,14 +284,15 @@ h2 {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
-        font-size: 25px;
+    #hero-msg h1 {
         color: #6f7364;
     }
+    .home-title {
+        font-size: 25px;
+    }
     .rivers-card, .camping-card, .rapids-card { 
-        /* margin: 50px auto; */
+        margin: 50px auto;
         width: 60%;
-        margin: 200px 0;
     }
     #background {
         display: none;

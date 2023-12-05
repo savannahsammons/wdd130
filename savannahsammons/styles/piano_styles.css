@@ -3,6 +3,8 @@
 body {
   margin: 0;
   font-family: Lexend, "Open Sans", sans-serif;
+
+  background-image: url("records.jpg");
 }
 
 .logo {
@@ -40,18 +42,55 @@ color: white;
 
 /* ============== new section ================= */
 
-.pics img {
-  width: 400px;
-  /* margin: 5%; */
-  margin-left: auto;
-  margin-right: auto;
+h1 {
+  color: white;
+  margin: 5%;
+}
+
+.instructions p {
+  color: white;
+  margin: 5%;
+  font-size: 25px;
+}
+
+/* ============== new section ================= */
+
+.image_container {
+  display: flex;
 }
 
 .sheet_music_mary {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  align-items: left;
+  width: 300px;
+  padding: 30px;
+  margin-left: 150px;
+}
+
+.sheet_music_housetop {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 30px;
+}
+
+.twinkle_twinkle {
+  display: flex;
+  align-items: right;
+  width: 200px;
+  padding: 30px;
+}
+
+.copyright_mary {
+  color: white;
+}
+
+/* ============== new section ================= */
+
+.why_sheet_music p {
+  color: white;
+  margin: 5%;
+  font-size: 25px;
 }
 
 /* ============== new section ================= */

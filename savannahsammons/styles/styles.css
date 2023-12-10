@@ -147,7 +147,6 @@ body {
 
 .one {
   grid-column: 3;
-  grid-row: 1;
   z-index: 1;
 }
 
@@ -159,7 +158,6 @@ body {
 
 .three {
   grid-column: 2;
-  grid-row: 2;
   z-index: 0;
 }
 
@@ -210,3 +208,74 @@ footer {
 
 
 /* +++++++++++ PAGE 3 +++++++++++++++++++++++ */
+
+.bottom_paragraph {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 40px;
+}
+
+.grid_container p {
+  text-align: center;
+  /* margin-left: 0; */
+}
+
+.image1 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 1;
+}
+
+.image2 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 2;
+}
+
+.image3 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 3;
+}
+
+.image4 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 4;
+}
+
+.image5 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 1;
+}
+
+.image6 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 2;
+}
+
+.image7 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 3;
+}
+
+.image8 {
+  justify-self: center;
+  width: 200px;
+  grid-column: 4;
+}
+
+main a {
+  margin: auto;
+}
